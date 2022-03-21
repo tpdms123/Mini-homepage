@@ -1,0 +1,104 @@
+/*카페24 써라운드에어*/
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Single Day*/
+@font-face {
+    font-family: 'HSSaemaul-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*쿠키런*/
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*LAB디지털*/
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+ font-family: 'Cafe24SsurroundAir';
+ font-family: 'HSSaemaul-Regular';
+ font-family: 'CookieRun-Regular';
+ font-family: 'LAB디지털';
+*/
+/*방문자 수*/
+.visit
+{
+    font-size: 15px;
+    font-family: 'LAB디지털';
+}
+/**미니홈피 주인 소개**/
+.profileExpl
+{
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 12px;
+    font-weight: bold;
+}
+.nickname_female
+{
+    font-family: 'HSSaemaul-Regular';
+}
+#contact
+{
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 12px;
+}
+/********게시판 박스***********/
+.state
+{
+    font-family: 'Cafe24SsurroundAir';
+}
+.comment_user
+{
+    font-size: 14px;
+}
+.pageUrl
+{
+    font-size: 10px;
+}
+/**업데이트 뉴스***/
+.newsTitle,.miniroomTitle
+{
+    font-family: 'CookieRun-Regular';
+    font-weight: bold;
+}
+.newRow
+{
+    font-family: 'CookieRun-Regular';
+}
+.newsList_Photo, .newsList_Diary, .newsList_Board
+{
+    font-size: 11px;
+}
+.newsLIst_content
+{
+    font-size: 13px;
+}
+/*게시판 분류*/
+.newsCate_Col1_row1, .newsCate_Col1_row2, .newsCate_Col2_row1, .newsCate_Col2_row2
+{
+    font-size: 11px;
+}
+.photoList
+{
+    font-family: 'CookieRun-Regular';
+}
+/*******메뉴******/
+.cateHome, .cateDiary, .cateGallary, .cateGuestbook, .category a
+{
+    font-size: 15px;
+    font-family: 'HSSaemaul-Regular';
+    text-decoration: none;
+    color: #fff;
+}

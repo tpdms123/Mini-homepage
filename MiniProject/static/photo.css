@@ -1,0 +1,28 @@
+.photoList
+{
+    height: 436px;
+    margin: 13px;
+    overflow: auto;
+}
+.list_photo
+{
+    width: 490px;
+    margin-left: 20px;
+    margin-right: 13px;
+}
+.list_Title
+{
+    background-color: #E7E7E7;
+    padding: 8px 17px 8px 17px;
+    margin-bottom: 15px;
+}
+.list_photo img{
+    width: 100%;
+}
+.list_text
+{
+    padding: 18px 13px 50px 20px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}

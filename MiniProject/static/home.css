@@ -1,0 +1,133 @@
+body 
+{
+    background-color: #afa491;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+}
+.bookcover{
+    background-color: #f1c98b;
+    border-radius: 10px;
+    border: 1px solid#857d72;
+}
+.bookdot
+{
+    border: 2px dashed #fff;
+    border-radius: 10px;
+}
+.page
+{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+/********프로필 박스********/
+/*방문자 수*/
+.visit
+{
+    text-align: center;
+}
+.visit_point
+{
+    color: red;
+}
+#contact
+{
+    width: 160px;
+    padding: 3%;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+#contact:active
+{
+    background-color: #eee;
+}
+/**미니홈피 주인 소개**/
+.introduce
+{
+    background-color: #fff;
+    border: #D9D9D9 1px solid;
+    border-radius: 10px;
+}
+.profilePhoto img
+{
+    box-shadow: 3px 3px 3px rgb(134, 134, 134);
+}
+.profileExpl
+{
+    text-align: center;
+    line-height: 1.5;
+    text-shadow: 1.5px 1.5px 1.5px #d4902a;
+}
+.nickname_female
+{
+    color: #474747;
+}
+/********게시판 박스***********/
+.comment_user
+{
+    text-align: left;
+}
+.pageUrl
+{
+    text-align: right;
+}
+/**업데이트 뉴스***/
+.contentList
+{
+    background-color: #fff;
+    border: #D9D9D9 1px solid;
+    border-radius: 10px;
+}
+.newsTitle,.miniroomTitle
+{
+    border-bottom: solid #A8A8A8 2px;
+    color: #d4902a;
+}
+.newsList_Photo, .newsList_Diary, .newsList_Board
+{
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.newsList_Photo
+{
+    background-color: #F2625E;
+}
+.newsList_Diary
+{
+    background-color: #667BC2;
+}
+.newsList_Board
+{
+    background-color: #66c272;
+}
+/*게시판 분류*/
+.newsCate_Col1_row1, .newsCate_Col1_row2, .newsCate_Col2_row1, .newsCate_Col2_row2
+{
+    border-bottom: dotted #000 1px;
+}
+.cate_visit
+{
+    color: #3F46B3;
+}
+/*미니룸*/
+.miniroom_content img
+{
+    width: 100%;
+    height: 100%;
+}
+/***********메뉴************/
+.category
+{
+    margin-top: 30px;
+}
+.cateHome, .cateDiary, .cateGallary, .cateGuestbook
+{
+    margin: 18px 0;
+    background-color:#d4902a;
+    padding: 2.7px;
+    border-right: #b46c01 solid 1px;
+    border-top: #b46c01 solid 1px;
+    border-bottom: #b46c01 solid 1px;
+    border-radius: 0 5px 5px 0;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,192 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body 
+{
+    margin: 0;
+}
+.bookcover{
+    width: 950px;
+    height: 550px;
+    top: 90px;
+    left: 18%;
+    position: relative;
+}
+.bookdot
+{
+    position: absolute;
+    top: 1.6%;
+    left: 1%;
+    width: 928px;
+    height: 530px;
+}
+.page
+{
+    width: 910px;
+    height: 510px;
+    margin: 1% 1%;
+    display: flex;
+}
+/********프로필 박스********/
+.profile
+{
+    flex: 0.3;
+    flex-direction: column;
+    display: flex;
+}
+/*방문자 수*/
+.visit
+{
+    flex: 0.05;
+    padding-top: 15px;
+}
+/**미니홈피 주인 소개**/
+.introduce
+{
+    flex: 1.5;
+    margin: 0 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.profilePhoto
+{   
+    flex: 0.5;
+    padding: 30px 30px 15px 30px;
+    width: 130px;
+}
+.profilePhoto img
+{
+    width: 100%;
+}
+.profileExpl
+{
+    flex: 0.6;
+}
+.nickName
+{
+    flex:0.23;
+    text-align: center;
+}
+/********게시판 박스***********/
+.content
+{
+    flex: 0.8;
+    flex-direction: column;
+    display: flex;
+}
+.state
+{
+    display: flex;
+    flex-direction: row;
+    flex: 0.05;
+    margin-top: 8px;
+}
+.comment
+{
+    flex: 1; 
+}
+.comment_user
+{
+    padding-left: 17px;
+}
+.pageUrl
+{
+    flex: 1;   
+    margin-top: 9px;
+}
+/**업데이트 뉴스***/
+.contentList
+{
+    flex: 1.5;
+    margin: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.news 
+{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+.newsTitle
+{
+    flex: 0.1;
+    margin: 10px 13px 3px 13px;
+}
+.newRow
+{
+    flex: 0.7;
+    display: flex;
+    flex-direction: row;
+}
+.newsList
+{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+}
+.newsList_Title 
+{
+    flex: 0.1;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+.newsList_Photo, .newsList_Diary, .newsList_Board
+{
+    flex: 0.2;
+    margin-left: 10px;
+    padding: 2px 0;
+    margin-right: 10px;
+}
+.newsLIst_content
+{
+    flex: 0.9;
+}
+/*미니룸*/
+.miniroom
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.miniroomTitle
+{
+    flex: 0.1;
+    margin: 10px 13px 0px 13px;
+}
+.miniroomTitle
+{
+    flex: 0.1;
+}
+.miniroom_content
+{
+    flex:1;
+    padding: 0 13px 13px 13px;
+}
+/*게시판 분류*/
+.newsCate
+{
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.newsCate_Col1, .newsCate_Col2
+{
+    flex: 0.2;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+.newsCate_Col1_row1, .newsCate_Col1_row2, .newsCate_Col2_row1, .newsCate_Col2_row2
+{
+    flex: 0.5;
+}
+/***********메뉴************/
+.category
+{
+    flex: 0.1;
+    margin: 15px 15px 15px 0;
+}
