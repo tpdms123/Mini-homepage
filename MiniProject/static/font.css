@@ -85,12 +85,24 @@
 {
     font-size: 13px;
 }
+.date
+{
+    font-family: 'LAB디지털';
+}
 /*게시판 분류*/
 .newsCate_Col1_row1, .newsCate_Col1_row2, .newsCate_Col2_row1, .newsCate_Col2_row2
 {
     font-size: 11px;
 }
 .photoList
+{
+    font-family: 'CookieRun-Regular';
+}
+.diaryDate
+{
+    font-family: 'LAB디지털';
+}
+.diaryContent, .btn
 {
     font-family: 'CookieRun-Regular';
 }

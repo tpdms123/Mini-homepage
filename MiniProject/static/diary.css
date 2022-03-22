@@ -1,0 +1,99 @@
+.diaryList
+{
+    margin: 13px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+}
+.date
+{
+    flex: 0.2;
+    border: 1px solid #E9E9E9;
+    height: 3rem;
+    position: absolute;
+    padding: 0px 17px 0px 17px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 56%;
+}
+.dateTitle
+{
+    color: #D4902A;
+    flex: 0.1;
+    margin-right: 15px;
+    text-align: center;
+
+}
+.dateList
+{
+    flex: 1;
+}
+.dateList span
+{
+    font-size: 13px;
+    padding-right: 5px;
+    text-align: right;
+}
+.red
+{
+    color: #f00;
+}
+.blue
+{
+    color: #00f;
+}
+.diary
+{
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 4rem;
+}
+.diaryTool
+{
+    border: 1px solid #E9E9E9;
+    padding: 25px 17px 25px 17px;
+    margin-bottom: 6%;
+}
+.diaryDate
+{
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #4C9CC6;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.diaryContent
+{
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.7px;
+}
+.diaryBtn
+{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.btn
+{
+    border: 0;
+    padding: 3%;
+    color: #fff;
+    background-color: #fff;
+    letter-spacing: 1.2px;
+}
+.btn:hover
+{
+    background-color: #F2625E;
+    color: #fff;
+    transition: 800ms ease all;
+}
+.btn i
+{
+    margin-right: 10px;
+}
