@@ -23,19 +23,29 @@
 {
     color: #D4902A;
     flex: 0.1;
-    margin-right: 15px;
+    padding-right: 15px;
     text-align: center;
-
+    border-right: 2px dotted #e9e9e9;
 }
 .dateList
 {
     flex: 1;
+    margin-left: 15px;
 }
-.dateList span
+.dateList ul
 {
-    font-size: 13px;
-    padding-right: 5px;
-    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+.dateList ul li
+{
+    float: left;
+    width: 3%;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
 }
 .red
 {
@@ -49,7 +59,7 @@
 {
     flex: 1;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-top: 4rem;
 }
 .diaryTool
@@ -76,8 +86,7 @@
 .diaryBtn
 {
     text-align: center;
-    padding-bottom: 10%;
-    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .btn
 {
