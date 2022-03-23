@@ -86,7 +86,7 @@
 .diaryBtn
 {
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 6%;
 }
 .btn
 {
@@ -105,4 +105,7 @@
 .btn i
 {
     margin-right: 10px;
+}
+#secret-box {
+    display: none;
 }
