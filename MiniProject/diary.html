@@ -131,10 +131,19 @@
                     </div>
                   </div>
                   <div class="diaryBtn">
-                    <button class="btn">
+                    <button class="btn" onclick="getTextFile()">
                       <i class="fa-solid fa-lock"></i>시베리아호랑이의 비밀일기 보기
                     </button>
                   </div>
+
+                  <div class="diaryTool" id="secret-box">
+                    <div class="diaryDate">
+                      시베리아호랑이의 비밀 일기
+                    </div>
+                    <div class="diaryContent" id="secret-diary">
+                    </div>
+                  </div>
+
                 </div>
               </div><!--diaryList-->              
             </div><!--contentList-->
@@ -147,9 +156,29 @@
             <a href="./photo.html"><div class="cateGallary">사진첩</div></a>
             <a href="./guestbook.html"><div class="cateGuestbook">방명록</div></a>
           </div>
-
         </div><!--page-->
       </div><!--bookdot-->
     </div>  <!--bookcover-->
+
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+
+        reader.onload = function () {
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
   </body>
 </html>
