@@ -1,0 +1,65 @@
+.guestbookList
+{
+    height: 436px;
+    margin: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+.guest
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.guestName 
+{
+    flex: 0.1;
+    background-color: #E7E7E7;
+    padding: 8px 17px 8px 17px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.guestContent
+{
+    flex: 0.9;
+    display: flex;
+    flex-direction: row;
+}
+.nickNameBlue
+{
+    color: #4004FD;
+}
+.guestPhoto
+{
+    flex: 0.5;
+    height: 9rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; 
+}
+.background1{
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/28/18/35/desert-3436700_960_720.jpg");
+}
+.guestPhoto > img {
+    width: 60%;
+}
+.guestText
+{
+    flex: 1;
+    margin-top: 13px; 
+    font-size: 13px;
+    line-height: 18px; 
+    display: flex;
+    align-items: center;
+}
+.background2
+{
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/16/16/36/bamboo-1045972_960_720.jpg");
+}
+.background3
+{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/22/06/sea-1284467_960_720.jpg");
+}

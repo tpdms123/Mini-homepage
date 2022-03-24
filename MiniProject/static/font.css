@@ -73,10 +73,6 @@
     font-family: 'CookieRun-Regular';
     font-weight: bold;
 }
-.newRow
-{
-    font-family: 'CookieRun-Regular';
-}
 .newsList_Photo, .newsList_Diary, .newsList_Board
 {
     font-size: 11px;
@@ -85,7 +81,11 @@
 {
     font-size: 13px;
 }
-.date
+.diaryContent, .btn, .guestbookList, .photoList, .newRow,.nickNameBlue 
+{
+    font-family: 'CookieRun-Regular';
+}
+.date, .diaryDate, .visitDate
 {
     font-family: 'LAB디지털';
 }
@@ -93,18 +93,6 @@
 .newsCate_Col1_row1, .newsCate_Col1_row2, .newsCate_Col2_row1, .newsCate_Col2_row2
 {
     font-size: 11px;
-}
-.photoList
-{
-    font-family: 'CookieRun-Regular';
-}
-.diaryDate
-{
-    font-family: 'LAB디지털';
-}
-.diaryContent, .btn
-{
-    font-family: 'CookieRun-Regular';
 }
 /*******메뉴******/
 .cateHome, .cateDiary, .cateGallary, .cateGuestbook, .category a
